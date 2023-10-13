@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>goit-js-hw-11</title>
+    <link rel="stylesheet" href="./style.scss"/>
+</head>
+<body>
+    <header>
+    <form class="search-form" id="search-form">
+        <input
+          type="text"
+          name="searchQuery"
+          autocomplete="off"
+          placeholder="Search images..."
+        />
+        <button type="submit" class="btn-search" disabled>
+            <svg class="icon" width="23px" height="20px">
+              <use href="./icons/glass-icon.svg#glass"></use>
+            </svg>
+          </button>
+      </form>
+    </header>
+    <main>
+        <div class="gallery"></div>
+        <button class="btn-more" type="button">LOAD MORE</button>
+        <p class="limit">We're sorry, but you've reached the end of search results.</p>
+      </main>
+    <script type="module" src="./index.js"></script>
+</body>
+</html>
