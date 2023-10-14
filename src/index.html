@@ -8,20 +8,23 @@
 </head>
 <body>
     <header>
+      <div class="container">
     <form class="search-form" id="search-form">
         <input
           type="text"
           name="searchQuery"
           autocomplete="off"
           placeholder="Search images..."
-        />
+          />
         <button type="submit" class="btn-search" disabled>
             <svg class="icon" width="23px" height="20px">
               <use href="./icons/glass-icon.svg#glass"></use>
             </svg>
           </button>
-      </form>
+        </form>
+    </div>
     </header>
+  
     <main>
         <div class="gallery"></div>
         <button class="btn-more" type="button">LOAD MORE</button>
